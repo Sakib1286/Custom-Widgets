@@ -6,8 +6,8 @@ class CustomButton extends StatelessWidget {
   final Color textcolor;
   final double fontsize;
   final Color bgcolor;
-  final double btnheight;
-  final double btnwidth;
+  final double? btnheight;
+  final double? btnwidth;
 
   const CustomButton(
       {super.key,
